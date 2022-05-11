@@ -5,13 +5,12 @@
     border-radius: 20px;
 }
 #main{
-    background-image: url("/images/cb\ albums.jpg");
+    background-image: url("./images/cb\ albums.jpg");
     max-width: 100%;
     height: auto;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    
   margin: 30px 8px;
   padding: 15px;
   border-radius: 5px;
@@ -20,10 +19,18 @@
     color: white;
 }
 
-#image{
-    border-radius: 20px;
+img{
+    /* border-radius: 20px;
     max-width: 100%;
     height: auto;
+    display: block;
+    align-self: center; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    max-width: 625px;
 }
 #tribute-info{
     background-color: azure;
@@ -63,14 +70,3 @@ h2{
     font-size: 10px;
   }
   {
-	"resource": "/c:/Users/DERRICK/OneDrive/Desktop/html/style.css",
-	"owner": "_generated_diagnostic_collection_name_#0",
-	"code": "css-rcurlyexpected",
-	"severity": 8,
-	"message": "} expected",
-	"source": "css",
-	"startLineNumber": 58,
-	"startColumn": 3,
-	"endLineNumber": 58,
-	"endColumn": 3
-}
